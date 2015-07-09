@@ -11,7 +11,7 @@ Java 8 (JDK) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-down
 Example
 =======
 '''
-// Create combination generator object and specify what type of character combinations to generate.
+		// Create combination generator object and specify what type of character combinations to generate.
 		CombinationGenerator cg = new CombinationGenerator(CombinationType.LOWERCASE, CombinationType.NUMBERS);
 		
 		// Set the max length that generations can be. Default is 5.
