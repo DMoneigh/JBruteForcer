@@ -18,7 +18,7 @@ public class JBruteForcer extends Object {
 	 */
 	public static void main(String[] args) {
 		
-		// Create combination generator object and specify what type of character combinations to generate.
+		// Create combination generator object and specify what type of character combinations to generate. Different combination types are separated by commas.
 		CombinationGenerator cg = new CombinationGenerator(CombinationType.LOWERCASE, CombinationType.NUMBERS);
 		
 		// Set the max length that generations can be. Default is 5.
