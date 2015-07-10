@@ -112,7 +112,7 @@ public class CombinationGenerator extends Thread {
 			generateListener.onGenerate(combination);
 			return;
 		}
-		for (int i = 0; i < characters.length; ++i)
+		for (int i = 0; i < characters.length; i++)
 			generateCombination(combination + characters[i], length - 1);
 	}
 
