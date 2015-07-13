@@ -1,7 +1,7 @@
 JBruteForcer
 ========
 
-Java Brute Forcer.
+Java Brute Forcer
 
 Requirements For Compilation
 ============
